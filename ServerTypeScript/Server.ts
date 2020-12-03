@@ -3,10 +3,13 @@ import path = require("path");
 
 const app: express.Application = express();
 
+console.log("Hello world!!!!");
 const staticPath: string = path.join(__dirname, "../public");
 
 app.use(express.static(staticPath));
 app.get("/", function (req, res) {
+  //res.send("400");
+
   res.sendFile(path.join(staticPath, "/html/index.html"));
 });
 
