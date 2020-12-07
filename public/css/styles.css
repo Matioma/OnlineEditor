@@ -1,0 +1,12 @@
+body {
+  /* background-color: red; */
+}
+
+.register-form {
+  background-color: #4066a3;
+  padding: 20px;
+  line-height: 0px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
